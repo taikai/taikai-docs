@@ -16,5 +16,5 @@ COPY . .
 RUN mkdir -p logs
 RUN npm install --silent --only=production --no-audit
 COPY --from=builder /app/build build
-CMD NODE_ENV=production npm run serve --build --port 80 --host 0.0.0.0
+CMD NODE_ENV=production node index.js
 

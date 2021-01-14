@@ -2,7 +2,7 @@ module.exports = {
   title: 'TAIKAI - Documentation',
   tagline: 'The tagline of my site',
   url: 'https://taikai.github.io',
-  baseUrl: '/taikai-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
