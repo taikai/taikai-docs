@@ -1,4 +1,4 @@
-FROM node:10.26 AS builder
+FROM node:10.23 AS builder
 
 WORKDIR /app
 RUN apt-get update &&  apt-get install -y expect
@@ -8,7 +8,7 @@ COPY . .
 RUN npm run build
 LABEL maintainer="helder@taikai.network"
 
-FROM node:10.26-alpine AS release
+FROM node:10.23-alpine AS release
 
 WORKDIR /app
 COPY package*.json ./
