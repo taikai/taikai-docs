@@ -8,10 +8,5 @@
   "slug": "/mdx",
   "permalink": "/mdx",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mdx.md",
-  "version": "current",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "This is Document Number 3",
-    "permalink": "/doc3"
-  }
+  "version": "current"
 }

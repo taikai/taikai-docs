@@ -1,0 +1,21 @@
+{
+  "unversionedId": "how-to-create-project",
+  "id": "how-to-create-project",
+  "isDocsHomePage": false,
+  "title": "Create a Project",
+  "description": "This is a link to another document. This is a link to an external page.",
+  "source": "@site/docs/how-to-create-project.md",
+  "slug": "/how-to-create-project",
+  "permalink": "/how-to-create-project",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/how-to-create-project.md",
+  "version": "current",
+  "sidebar": "MainSideBar",
+  "previous": {
+    "title": "Register as Participant",
+    "permalink": "/how-to-register"
+  },
+  "next": {
+    "title": "Matchmaking",
+    "permalink": "/matchmaking"
+  }
+}

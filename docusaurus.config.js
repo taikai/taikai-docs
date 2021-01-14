@@ -70,7 +70,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright TAIKAI © ${new Date().getFullYear()} Built with ❤️  by TAIKAI Team`,
     },
   },
   presets: [

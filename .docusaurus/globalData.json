@@ -8,31 +8,48 @@
           "label": "Next",
           "isLast": true,
           "path": "/",
-          "mainDocId": "doc1",
+          "mainDocId": "home",
           "docs": [
             {
               "id": "doc1",
-              "path": "/",
-              "sidebar": "someSidebar"
+              "path": "/doc1"
             },
             {
               "id": "doc2",
-              "path": "/doc2",
-              "sidebar": "someSidebar"
+              "path": "/doc2"
             },
             {
               "id": "doc3",
-              "path": "/doc3",
-              "sidebar": "someSidebar"
+              "path": "/doc3"
             },
             {
               "id": "home",
-              "path": "/"
+              "path": "/",
+              "sidebar": "MainSideBar"
             },
             {
-              "id": "mdx",
-              "path": "/mdx",
-              "sidebar": "someSidebar"
+              "id": "how-to-create-challenge",
+              "path": "/how-to-create-challenge",
+              "sidebar": "MainSideBar"
+            },
+            {
+              "id": "how-to-create-project",
+              "path": "/how-to-create-project",
+              "sidebar": "MainSideBar"
+            },
+            {
+              "id": "how-to-register",
+              "path": "/how-to-register",
+              "sidebar": "MainSideBar"
+            },
+            {
+              "id": "how-to-vote",
+              "path": "/how-to-vote"
+            },
+            {
+              "id": "matchmaking",
+              "path": "/matchmaking",
+              "sidebar": "MainSideBar"
             }
           ]
         }

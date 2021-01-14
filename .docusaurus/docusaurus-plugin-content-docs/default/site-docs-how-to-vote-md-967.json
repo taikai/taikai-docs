@@ -1,0 +1,12 @@
+{
+  "unversionedId": "how-to-vote",
+  "id": "how-to-vote",
+  "isDocsHomePage": false,
+  "title": "Document Number 2",
+  "description": "This is a link to another document. This is a link to an external page.",
+  "source": "@site/docs/how-to-vote.md",
+  "slug": "/how-to-vote",
+  "permalink": "/how-to-vote",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/how-to-vote.md",
+  "version": "current"
+}

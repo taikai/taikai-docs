@@ -4,47 +4,60 @@
   "label": "Next",
   "isLast": true,
   "docsSidebars": {
-    "someSidebar": [
+    "MainSideBar": [
       {
         "collapsed": true,
         "type": "category",
-        "label": "Docusaurus",
+        "label": "General",
         "items": [
           {
             "type": "link",
-            "label": "Style Guide",
+            "label": "Welcome",
             "href": "/"
-          },
-          {
-            "type": "link",
-            "label": "Document Number 2",
-            "href": "/doc2"
-          },
-          {
-            "type": "link",
-            "label": "This is Document Number 3",
-            "href": "/doc3"
           }
         ]
       },
       {
         "collapsed": true,
         "type": "category",
-        "label": "Features",
+        "label": "Participant",
         "items": [
           {
             "type": "link",
-            "label": "Powered by MDX",
-            "href": "/mdx"
+            "label": "Register as Participant",
+            "href": "/how-to-register"
+          },
+          {
+            "type": "link",
+            "label": "Create a Project",
+            "href": "/how-to-create-project"
+          },
+          {
+            "type": "link",
+            "label": "Matchmaking",
+            "href": "/matchmaking"
+          }
+        ]
+      },
+      {
+        "collapsed": true,
+        "type": "category",
+        "label": "Organizer ",
+        "items": [
+          {
+            "type": "link",
+            "label": "Create a Challenge",
+            "href": "/how-to-create-challenge"
           }
         ]
       }
     ]
   },
   "permalinkToSidebar": {
-    "/": "someSidebar",
-    "/doc2": "someSidebar",
-    "/doc3": "someSidebar",
-    "/mdx": "someSidebar"
+    "/": "MainSideBar",
+    "/how-to-create-challenge": "MainSideBar",
+    "/how-to-create-project": "MainSideBar",
+    "/how-to-register": "MainSideBar",
+    "/matchmaking": "MainSideBar"
   }
 }

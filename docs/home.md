@@ -1,6 +1,6 @@
 ---
 id: home
-title: This is Document Number 3
+title: Welcome
 slug: /
 ---
 

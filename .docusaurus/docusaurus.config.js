@@ -71,7 +71,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright TAIKAI © 2021 Built with ❤️  by TAIKAI Team"
     },
     "colorMode": {
       "defaultMode": "light",

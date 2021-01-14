@@ -1,0 +1,21 @@
+{
+  "unversionedId": "how-to-register",
+  "id": "how-to-register",
+  "isDocsHomePage": false,
+  "title": "Register as Participant",
+  "description": "This is a link to another document. This is a link to an external page.",
+  "source": "@site/docs/how-to-register.md",
+  "slug": "/how-to-register",
+  "permalink": "/how-to-register",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/how-to-register.md",
+  "version": "current",
+  "sidebar": "MainSideBar",
+  "previous": {
+    "title": "Welcome",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Create a Project",
+    "permalink": "/how-to-create-project"
+  }
+}

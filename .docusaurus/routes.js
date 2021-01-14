@@ -38,63 +38,18 @@ export default [
   exact: true,
 },
 {
-  path: '/blog',
-  component: ComponentCreator('/blog','d7a'),
-  exact: true,
-},
-{
-  path: '/blog/hello-world',
-  component: ComponentCreator('/blog/hello-world','3bf'),
-  exact: true,
-},
-{
-  path: '/blog/hola',
-  component: ComponentCreator('/blog/hola','6de'),
-  exact: true,
-},
-{
-  path: '/blog/tags',
-  component: ComponentCreator('/blog/tags','157'),
-  exact: true,
-},
-{
-  path: '/blog/tags/docusaurus',
-  component: ComponentCreator('/blog/tags/docusaurus','e05'),
-  exact: true,
-},
-{
-  path: '/blog/tags/facebook',
-  component: ComponentCreator('/blog/tags/facebook','844'),
-  exact: true,
-},
-{
-  path: '/blog/tags/hello',
-  component: ComponentCreator('/blog/tags/hello','a96'),
-  exact: true,
-},
-{
-  path: '/blog/tags/hola',
-  component: ComponentCreator('/blog/tags/hola','025'),
-  exact: true,
-},
-{
-  path: '/blog/welcome',
-  component: ComponentCreator('/blog/welcome','274'),
-  exact: true,
-},
-{
   path: '/',
-  component: ComponentCreator('/','055'),
+  component: ComponentCreator('/','657'),
   
   routes: [
 {
   path: '/',
-  component: ComponentCreator('/','fa0'),
+  component: ComponentCreator('/','894'),
   exact: true,
 },
 {
-  path: '/',
-  component: ComponentCreator('/','894'),
+  path: '/doc1',
+  component: ComponentCreator('/doc1','9f0'),
   exact: true,
 },
 {
@@ -108,8 +63,28 @@ export default [
   exact: true,
 },
 {
-  path: '/mdx',
-  component: ComponentCreator('/mdx','f9a'),
+  path: '/how-to-create-challenge',
+  component: ComponentCreator('/how-to-create-challenge','7f2'),
+  exact: true,
+},
+{
+  path: '/how-to-create-project',
+  component: ComponentCreator('/how-to-create-project','640'),
+  exact: true,
+},
+{
+  path: '/how-to-register',
+  component: ComponentCreator('/how-to-register','08f'),
+  exact: true,
+},
+{
+  path: '/how-to-vote',
+  component: ComponentCreator('/how-to-vote','424'),
+  exact: true,
+},
+{
+  path: '/matchmaking',
+  component: ComponentCreator('/matchmaking','d09'),
   exact: true,
 },
 ]

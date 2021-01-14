@@ -1,0 +1,21 @@
+{
+  "unversionedId": "matchmaking",
+  "id": "matchmaking",
+  "isDocsHomePage": false,
+  "title": "Matchmaking",
+  "description": "This is a link to another document. This is a link to an external page.",
+  "source": "@site/docs/matchmaking.md",
+  "slug": "/matchmaking",
+  "permalink": "/matchmaking",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/matchmaking.md",
+  "version": "current",
+  "sidebar": "MainSideBar",
+  "previous": {
+    "title": "Create a Project",
+    "permalink": "/how-to-create-project"
+  },
+  "next": {
+    "title": "Create a Challenge",
+    "permalink": "/how-to-create-challenge"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "unversionedId": "how-to-create-challenge",
+  "id": "how-to-create-challenge",
+  "isDocsHomePage": false,
+  "title": "Create a Challenge",
+  "description": "This is a link to another document. This is a link to an external page.",
+  "source": "@site/docs/how-to-create-challenge.md",
+  "slug": "/how-to-create-challenge",
+  "permalink": "/how-to-create-challenge",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/how-to-create-challenge.md",
+  "version": "current",
+  "sidebar": "MainSideBar",
+  "previous": {
+    "title": "Matchmaking",
+    "permalink": "/matchmaking"
+  }
+}

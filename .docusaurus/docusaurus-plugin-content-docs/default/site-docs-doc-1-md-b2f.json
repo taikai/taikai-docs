@@ -5,14 +5,9 @@
   "title": "Style Guide",
   "description": "You can write content using GitHub-flavored Markdown syntax.",
   "source": "@site/docs/doc1.md",
-  "slug": "/",
-  "permalink": "/",
+  "slug": "/doc1",
+  "permalink": "/doc1",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
   "version": "current",
-  "sidebar_label": "Style Guide",
-  "sidebar": "someSidebar",
-  "next": {
-    "title": "Document Number 2",
-    "permalink": "/doc2"
-  }
+  "sidebar_label": "ParticipantGuide"
 }

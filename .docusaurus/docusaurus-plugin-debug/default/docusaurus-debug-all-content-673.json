@@ -11,46 +11,58 @@
           "sidebarFilePath": "/Users/heldervasconcelos/Desktop/Taikai/Code/taikai-docs/taikai-docs/sidebars.js",
           "docsDirPath": "/Users/heldervasconcelos/Desktop/Taikai/Code/taikai-docs/taikai-docs/docs",
           "docsDirPathLocalized": "/Users/heldervasconcelos/Desktop/Taikai/Code/taikai-docs/taikai-docs/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "doc1",
+          "mainDocId": "home",
           "sidebars": {
-            "someSidebar": [
+            "MainSideBar": [
               {
                 "collapsed": true,
                 "type": "category",
-                "label": "Docusaurus",
+                "label": "General",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "doc1"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "doc2"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "doc3"
+                    "id": "home"
                   }
                 ]
               },
               {
                 "collapsed": true,
                 "type": "category",
-                "label": "Features",
+                "label": "Participant",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "mdx"
+                    "id": "how-to-register"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "how-to-create-project"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "matchmaking"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Organizer ",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "how-to-create-challenge"
                   }
                 ]
               }
             ]
           },
           "permalinkToSidebar": {
-            "/": "someSidebar",
-            "/doc2": "someSidebar",
-            "/doc3": "someSidebar",
-            "/mdx": "someSidebar"
+            "/": "MainSideBar",
+            "/how-to-create-challenge": "MainSideBar",
+            "/how-to-create-project": "MainSideBar",
+            "/how-to-register": "MainSideBar",
+            "/matchmaking": "MainSideBar"
           },
           "docs": [
             {
@@ -60,16 +72,11 @@
               "title": "Style Guide",
               "description": "You can write content using GitHub-flavored Markdown syntax.",
               "source": "@site/docs/doc1.md",
-              "slug": "/",
-              "permalink": "/",
+              "slug": "/doc1",
+              "permalink": "/doc1",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc1.md",
               "version": "current",
-              "sidebar_label": "Style Guide",
-              "sidebar": "someSidebar",
-              "next": {
-                "title": "Document Number 2",
-                "permalink": "/doc2"
-              }
+              "sidebar_label": "ParticipantGuide"
             },
             {
               "unversionedId": "doc2",
@@ -81,16 +88,7 @@
               "slug": "/doc2",
               "permalink": "/doc2",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc2.md",
-              "version": "current",
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "Style Guide",
-                "permalink": "/"
-              },
-              "next": {
-                "title": "This is Document Number 3",
-                "permalink": "/doc3"
-              }
+              "version": "current"
             },
             {
               "unversionedId": "doc3",
@@ -103,43 +101,115 @@
               "permalink": "/doc3",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc3.md",
               "version": "current",
-              "sidebar": "someSidebar",
-              "previous": {
-                "title": "Document Number 2",
-                "permalink": "/doc2"
-              },
-              "next": {
-                "title": "Powered by MDX",
-                "permalink": "/mdx"
-              }
+              "sidebar_label": "Organizer Guide"
             },
             {
               "unversionedId": "home",
               "id": "home",
               "isDocsHomePage": false,
-              "title": "This is Document Number 3",
+              "title": "Welcome",
               "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
               "source": "@site/docs/home.md",
               "slug": "/",
               "permalink": "/",
               "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/home.md",
+              "version": "current",
+              "sidebar": "MainSideBar",
+              "next": {
+                "title": "Register as Participant",
+                "permalink": "/how-to-register"
+              }
+            },
+            {
+              "unversionedId": "how-to-create-challenge",
+              "id": "how-to-create-challenge",
+              "isDocsHomePage": false,
+              "title": "Create a Challenge",
+              "description": "This is a link to another document. This is a link to an external page.",
+              "source": "@site/docs/how-to-create-challenge.md",
+              "slug": "/how-to-create-challenge",
+              "permalink": "/how-to-create-challenge",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/how-to-create-challenge.md",
+              "version": "current",
+              "sidebar": "MainSideBar",
+              "previous": {
+                "title": "Matchmaking",
+                "permalink": "/matchmaking"
+              }
+            },
+            {
+              "unversionedId": "how-to-create-project",
+              "id": "how-to-create-project",
+              "isDocsHomePage": false,
+              "title": "Create a Project",
+              "description": "This is a link to another document. This is a link to an external page.",
+              "source": "@site/docs/how-to-create-project.md",
+              "slug": "/how-to-create-project",
+              "permalink": "/how-to-create-project",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/how-to-create-project.md",
+              "version": "current",
+              "sidebar": "MainSideBar",
+              "previous": {
+                "title": "Register as Participant",
+                "permalink": "/how-to-register"
+              },
+              "next": {
+                "title": "Matchmaking",
+                "permalink": "/matchmaking"
+              }
+            },
+            {
+              "unversionedId": "how-to-register",
+              "id": "how-to-register",
+              "isDocsHomePage": false,
+              "title": "Register as Participant",
+              "description": "This is a link to another document. This is a link to an external page.",
+              "source": "@site/docs/how-to-register.md",
+              "slug": "/how-to-register",
+              "permalink": "/how-to-register",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/how-to-register.md",
+              "version": "current",
+              "sidebar": "MainSideBar",
+              "previous": {
+                "title": "Welcome",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Create a Project",
+                "permalink": "/how-to-create-project"
+              }
+            },
+            {
+              "unversionedId": "how-to-vote",
+              "id": "how-to-vote",
+              "isDocsHomePage": false,
+              "title": "Document Number 2",
+              "description": "This is a link to another document. This is a link to an external page.",
+              "source": "@site/docs/how-to-vote.md",
+              "slug": "/how-to-vote",
+              "permalink": "/how-to-vote",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/how-to-vote.md",
               "version": "current"
             },
             {
-              "unversionedId": "mdx",
-              "id": "mdx",
+              "unversionedId": "matchmaking",
+              "id": "matchmaking",
               "isDocsHomePage": false,
-              "title": "Powered by MDX",
-              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
-              "source": "@site/docs/mdx.md",
-              "slug": "/mdx",
-              "permalink": "/mdx",
-              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/mdx.md",
+              "title": "Matchmaking",
+              "description": "This is a link to another document. This is a link to an external page.",
+              "source": "@site/docs/matchmaking.md",
+              "slug": "/matchmaking",
+              "permalink": "/matchmaking",
+              "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/matchmaking.md",
               "version": "current",
-              "sidebar": "someSidebar",
+              "sidebar": "MainSideBar",
               "previous": {
-                "title": "This is Document Number 3",
-                "permalink": "/doc3"
+                "title": "Create a Project",
+                "permalink": "/how-to-create-project"
+              },
+              "next": {
+                "title": "Create a Challenge",
+                "permalink": "/how-to-create-challenge"
               }
             }
           ]
@@ -148,153 +218,7 @@
     }
   },
   "docusaurus-plugin-content-blog": {
-    "default": {
-      "blogPosts": [
-        {
-          "id": "welcome",
-          "metadata": {
-            "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-30-welcome.md",
-            "source": "@site/blog/2019-05-30-welcome.md",
-            "description": "Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!",
-            "date": "2019-05-30T00:00:00.000Z",
-            "tags": [
-              {
-                "label": "facebook",
-                "permalink": "/blog/tags/facebook"
-              },
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "title": "Welcome",
-            "readingTime": 0.175,
-            "truncated": false,
-            "nextItem": {
-              "title": "Hello",
-              "permalink": "/blog/hello-world"
-            }
-          }
-        },
-        {
-          "id": "hello-world",
-          "metadata": {
-            "permalink": "/blog/hello-world",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-29-hello-world.md",
-            "source": "@site/blog/2019-05-29-hello-world.md",
-            "description": "Welcome to this blog. This blog is created with Docusaurus 2 alpha.",
-            "date": "2019-05-29T00:00:00.000Z",
-            "tags": [
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "title": "Hello",
-            "readingTime": 0.12,
-            "truncated": true,
-            "prevItem": {
-              "title": "Welcome",
-              "permalink": "/blog/welcome"
-            },
-            "nextItem": {
-              "title": "Hola",
-              "permalink": "/blog/hola"
-            }
-          }
-        },
-        {
-          "id": "hola",
-          "metadata": {
-            "permalink": "/blog/hola",
-            "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/blog/blog/2019-05-28-hola.md",
-            "source": "@site/blog/2019-05-28-hola.md",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
-            "date": "2019-05-28T00:00:00.000Z",
-            "tags": [
-              {
-                "label": "hola",
-                "permalink": "/blog/tags/hola"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "title": "Hola",
-            "readingTime": 0.12,
-            "truncated": false,
-            "prevItem": {
-              "title": "Hello",
-              "permalink": "/blog/hello-world"
-            }
-          }
-        }
-      ],
-      "blogListPaginated": [
-        {
-          "metadata": {
-            "permalink": "/blog",
-            "page": 1,
-            "postsPerPage": 10,
-            "totalPages": 1,
-            "totalCount": 3,
-            "previousPage": null,
-            "nextPage": null,
-            "blogDescription": "Blog",
-            "blogTitle": "Blog"
-          },
-          "items": [
-            "welcome",
-            "hello-world",
-            "hola"
-          ]
-        }
-      ],
-      "blogTags": {
-        "facebook": {
-          "name": "facebook",
-          "items": [
-            "welcome"
-          ],
-          "permalink": "/blog/tags/facebook"
-        },
-        "hello": {
-          "name": "hello",
-          "items": [
-            "welcome",
-            "hello-world"
-          ],
-          "permalink": "/blog/tags/hello"
-        },
-        "docusaurus": {
-          "name": "docusaurus",
-          "items": [
-            "welcome",
-            "hello-world",
-            "hola"
-          ],
-          "permalink": "/blog/tags/docusaurus"
-        },
-        "hola": {
-          "name": "hola",
-          "items": [
-            "hola"
-          ],
-          "permalink": "/blog/tags/hola"
-        }
-      },
-      "blogTagsListPath": "/blog/tags"
-    }
+    "default": null
   },
   "docusaurus-plugin-content-pages": {
     "default": []

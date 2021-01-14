@@ -9,13 +9,5 @@
   "permalink": "/doc3",
   "editUrl": "https://github.com/facebook/docusaurus/edit/master/website/docs/doc3.md",
   "version": "current",
-  "sidebar": "someSidebar",
-  "previous": {
-    "title": "Document Number 2",
-    "permalink": "/doc2"
-  },
-  "next": {
-    "title": "Powered by MDX",
-    "permalink": "/mdx"
-  }
+  "sidebar_label": "Organizer Guide"
 }
