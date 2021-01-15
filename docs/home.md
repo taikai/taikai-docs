@@ -4,6 +4,7 @@ title: Welcome
 slug: /
 ---
 
+
 Hi 👋  
 This is the website used to our community to understand how the **TAIKAI** platform works. TAIKAI is a hackthon/open innovation network that is built to provide a system to run challenge based competitions where organizers propose competitions to our community of innovators. The platform as a facilitator medium provides a set of tools that simplifies the registration, submisionm evaluation of projects to allow stakeholders to have a smooth experience across the competitions.
 
