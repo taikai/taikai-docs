@@ -1,7 +1,8 @@
 ---
-id: doc1
+id: markdown-syntax
 title: Style Guide
-sidebar_label: ParticipantGuide
+sidebar_label: Style Guide
+slug: /markdown-syntax
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

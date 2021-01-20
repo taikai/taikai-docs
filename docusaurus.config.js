@@ -1,80 +1,104 @@
 module.exports = {
-  title: 'TAIKAI - Documentation',
-  tagline: 'The tagline of my site',
-  url: 'https://taikai.github.io',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'taikai', // Usually your GitHub org/user name.
-  projectName: 'taikai-docs', // Usually your repo name.
+  title: "TAIKAI - Documentation",
+  tagline:
+    "This is the website used to our community to understand how the TAIKAI platform works",
+  url: "https://docs.taikai.network",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "taikai",
+  projectName: "taikai-docs",
   themeConfig: {
     navbar: {
-      title: 'TAIKAI Documentation',
+      title: "TAIKAI Documentation",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "TAIKAI Logo",
+        src: "img/logo.svg",
       },
-      items: [           
+      items: [
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/taikai/taikai-docs",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
-      links: [        
+      style: "dark",
+      links: [
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Website",
+              href: "https://taikai.network",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Twitter",
+              href: "https://twitter.com/taikainetwork",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: "Facebook",
+              href: "https://www.facebook.com/taikainetwork",
+            },
+            {
+              label: "Instagram",
+              href: "https://instagram.com/taikainetwork",
+            },
+            {
+              label: "LinkedIn",
+              href: "https://linkedin.com/company/taikainetwork",
             },
           ],
         },
         {
-          title: 'More',
-          items: [           
+          title: "TAIKAI",
+          items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "Blog",
+              href: "https://taikai.network/blog",
+            },
+            {
+              label: "Challenges",
+              href: "https://taikai.network/challenges",
+            },
+            {
+              label: "For Organizations",
+              href: "https://taikai.network/organizations",
+            },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "GitHub",
+              href: "https://github.com/taikai",
             },
           ],
         },
       ],
-      copyright: `Copyright TAIKAI © ${new Date().getFullYear()} Built with ❤️  by TAIKAI Team`,
+      copyright: `Copyright © ${new Date().getFullYear()}. Built with ❤️  by TAIKAI Team`,
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/taikai/taikai-docs/edit/master/website/',
-          routeBasePath: '/'
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/taikai/taikai-docs",
+          routeBasePath: "/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+        // },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
