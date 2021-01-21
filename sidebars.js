@@ -6,10 +6,10 @@ module.exports = {
       "participant/how-to-create-project",
       "participant/matchmaking",
     ],
-    "Organizer Guide": [
-      "organizer/how-does-it-works",
+    "Organizer Guide": [   
       "organizer/cms",
       "organizer/cms-login",
+      "organizer/how-does-it-works",
       "organizer/edit-organization",
       "organizer/create-challenge",
       "organizer/challenge-management",
