@@ -11,7 +11,7 @@ Youp will need software that can push an RTMP stream. That software will be conf
 
 > The Stream Key should be treated as a private key for live streaming. Anyone with the key can use it to stream video to the Live Stream it belongs to, so make sure your users know to keep it safe.
 
-**To get your live stage stream key and url**: 
+## Get the Stage Stream Key and URL 
 
 1. Go to **[cms.taikai.network](https://cms.taikai.network)** and login using the username and password provided;
 2. Go to the Challenge Page on your list of challenges
