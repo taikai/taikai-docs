@@ -4,9 +4,10 @@ title: Create Challenge
 slug: /organizer/create-challenge
 ---
 
-<!-- TODO: add images -->
-
 ### 1. Challenges List
+
+![img](../../static/img/organizer/create-challenge-01.jpg)
+
 Click on the **challenges menu** and click on your challenge on the **"Unpublished Challenges"** subsection. There will be a button to **"Edit Challenge"** on the right top corner;
 
 ### 2. Edit Challenge
@@ -19,6 +20,8 @@ Click on the **challenges menu** and click on your challenge on the **"Unpublish
 - Prizes, maximum projects allowed, type of participants, dates, etc;
 - Challenge short description;
 - Project template to guide your participants.
+
+![img](../../static/img/organizer/create-challenge-02.jpg)
 
 :::note
 By clicking on "Preview" button you can see the result of the changes regarding your challenge as it will be presented to participants.

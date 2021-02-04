@@ -4,8 +4,6 @@ title: Challenge Management
 slug: /organizer/challenge-management
 ---
 
-<!-- TODO: add images -->
-
 ### 1. Overview
 Manage **what is happening** in your challenge:
 - Steps;
